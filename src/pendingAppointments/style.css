@@ -1,0 +1,133 @@
+.mainHeader {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table{
+    border-collapse: collapse;
+    width :87%;
+    margin-left: 100px;
+    margin-top: 40px;
+    justify-self:center;
+    border: 1px solid black;
+    table-layout: fixed;
+  }
+  
+  th, td,tr {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    width: 20%;
+    border-collapse: collapse;
+  }
+
+  th.sNo {
+    width: 10%;
+  }
+  
+  th.time {
+    width: 20%;
+  }
+  
+  th.participants {
+    width: 40%;
+  }
+  
+  th.subject {
+    width: 25%;
+  }
+  
+  th.location {
+    width: 20%;
+  }
+  
+  th.phone {
+    width: 25%;
+  }
+
+  th.accept {
+    width: 12%;
+  }
+
+  th.cancel {
+    width: 10%;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ececec;
+  }
+
+  .tableRow:hover {
+    background-color: #a3a1a1;
+    cursor: pointer;
+  }
+
+  body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: #ddd;
+    padding: 40px 28px;
+    border-radius: 3px;
+    max-width: 700px;
+    min-width: 300px;
+    color: #000;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    font-size: 10px;
+}
+
+.Yes-Button {
+    position: absolute;
+    right: 70px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.No-Button {
+    position: absolute;
+    right: 20px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.scrollText {
+    color: black;
+    margin-top: 40px;
+}
+
+.fontWeight {
+  font-weight: 300;
+}
+  

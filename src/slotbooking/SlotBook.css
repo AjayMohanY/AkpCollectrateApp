@@ -1,0 +1,108 @@
+.BookYourSlotContainer {
+    margin:50px;
+    
+}
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    width: 15em;
+    padding-top: 2em;
+    text-align:left;
+    margin-bottom: 5px;
+}
+
+select {
+    /* display: inline-block; */
+    width: 10em;
+}
+
+
+
+.row1Container{
+    display: flex;
+    margin:2px auto;
+    margin-top: 1px;
+}
+
+.row2Container {
+    display: flex;
+    margin:2px auto;
+    margin-left: 2%;
+    gap:30px;
+    margin-top: 1px;
+}
+
+.row3Container {
+    /* display: flex; */
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+/* .datePicker, .startTime,.endTime,.Department,.location,.subject{
+    margin:20px auto
+} */
+
+.datePicker {
+    margin: 20px auto;
+}
+
+.startTime {
+    margin: 20px auto;
+}
+
+.endTime {
+    margin: 20px auto;
+}
+
+
+
+option {
+    padding-bottom: 4px;
+}
+
+.Dept {
+    width: 26em;
+    height: 42px;
+    border-radius: 20px;
+    padding: 10px;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.loca {
+    width: 26em;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left:26px auto;
+    margin-top: 10px;
+}
+ 
+.subject {
+    width: 13em;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 18px; 
+}
+
+.phoneNumber {
+    margin-top: 20;
+    margin-left: 30px;
+    border-radius: 20px;
+   
+}
+
+
+.submitButton {
+    margin:20px auto;
+    display: flex;
+    float: right;
+    padding: 10px;
+    gap:20px;
+}

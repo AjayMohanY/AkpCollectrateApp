@@ -1,0 +1,186 @@
+
+
+.Anakapalli-Collectorate{
+  background: linear-gradient( 45deg,#0D47A1,#4CAF50);
+  height: 100px;
+}
+
+*{
+  margin: 0px;
+}
+.AnakapalliCollectorate{
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 125px;
+  top: 25px;
+  display: inline-block;
+}
+.dc{
+  position: absolute;
+  right: 25%;
+  top: 15px;
+
+}
+.dcname{
+  position: absolute;
+  right: 7%;
+  top: 18px;
+  color: white;
+}
+.dcname1{
+  position: absolute;
+  right: 6.5%;
+  top: 40px;
+  color: white;
+  
+}
+.logo{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.nav {
+  display: flex;
+  justify-self: start;
+  background-color: whitesmoke;
+  padding: 10px;
+  left : 20px;
+}
+
+.slotBook{
+  background-color: #2196F3;
+    color: white;
+    padding: 14px 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  transition: color 0.5s;
+
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #e9edec;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.Login{
+  position: absolute;
+  right: 45px;
+  border: 1px solid whitesmoke;
+  background-color: lightsalmon;
+  border-radius: 20px;
+  height: 25px;
+  width: 70px;
+  font-size: larger;
+  text-align: center;
+
+}
+.table{
+  border-collapse: collapse;
+  width :85%;
+  margin-left: 100px;
+  justify-self:center;
+  border: 1px solid black;
+  table-layout: fixed;
+}
+.h3{
+  /* text-align: center; */
+  color: darkred;
+}
+
+th, td,tr {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+  width: 20%;
+  border-collapse: collapse;
+}
+
+.renderItemTable {
+  margin-left: 100px;
+  margin-top:30px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th.sNo {
+  width: 10%;
+}
+
+th.time {
+  width: 20%;
+}
+
+th.participants {
+  width: 40%;
+}
+
+th.subject {
+  width: 25%;
+}
+
+th.location {
+  width: 20%;
+}
+
+th.phone {
+  width: 25%;
+}
+
+th.cancel {
+  width: 12%;
+}
+
+
+
+
+
+
